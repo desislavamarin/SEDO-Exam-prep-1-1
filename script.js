@@ -11,8 +11,10 @@ function multiply(a, b) {
 }
 
 function calculateAndDisplay(fn) {
+
   const a = Number(document.getElementById('a').value);
   const b = Number(document.getElementById('b').value);
+
   document.getElementById('result').textContent = fn(a, b);
 }
 
