@@ -11,6 +11,7 @@ function multiply(a, b) {
 }
 
 function calculateAndDisplay(fn) {
+
   const rawA = document.getElementById('a').value;
   const rawB = document.getElementById('b').value;
 
